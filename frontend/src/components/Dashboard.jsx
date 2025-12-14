@@ -95,7 +95,7 @@ export default function Dashboard({ user, onLogout }) {
                     <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cupi-accent to-purple-500">
                         CUPI Dashboard
                     </h1>
-                    <p className="text-gray-400 text-sm">Real-time Stock Broker Client (DB)</p>
+                    <p className="text-gray-400 text-sm">Stock Broker Client Web Dashboard</p>
                 </div>
                 <div className="flex items-center gap-6">
                     <div className="text-right">
