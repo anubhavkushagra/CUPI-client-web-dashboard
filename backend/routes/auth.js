@@ -36,14 +36,14 @@ router.post('/login', async (req, res) => {
     }
 
     try {
-        // In real app, verify hashed password
+
         const user = await User.findOne({ email });
 
         if (!user || user.password !== password) {
             return res.status(401).json({ message: 'Invalid email or password' });
         }
 
-        // Return simple user info
+
         res.json({
             id: user._id,
             name: user.name,
