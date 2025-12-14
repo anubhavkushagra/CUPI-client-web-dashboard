@@ -1,32 +1,22 @@
-# CUPI Stock Broker Dashboard
+# Stock Broker Client Web Dashboard
 
-A complete full-stack real-time stock broker client built with Node.js, Socket.IO, and React.
+**Live Demo:** [https://cupi-client-web-dashboard-production.up.railway.app/](https://cupi-client-web-dashboard-production.up.railway.app/)
 
-## Project Structure
-- `backend/`: Node.js, Express, Socket.IO server.
-- `frontend/`: React, Vite, Tailwind CSS client.
+## Overview
+A full-stack, real-time stock trading dashboard built with the **MERN Stack** (MongoDB, Express, React, Node.js). It simulates a live stock market environment where users can buy/sell stocks, track their portfolio, and view real-time price trends.
 
-## Getting Started
+## Key Features
+*   **Real-Time Updates**: Live stock prices updated instantly using **Socket.IO**.
+*   **User Authentication**: Secure Signup & Login with data persistence in **MongoDB Atlas**.
+*   **Portfolio Management**: Track holdings, balance, and total portfolio value dynamically.
+*   **Transaction History**: Detailed log of all buy/sell actions.
+*   **Interactive UI**: Modern, glassmorphism-inspired design with **Tailwind CSS** and live Sparkline charts.
 
-### 1. Backend
-```bash
-cd backend
-npm install
-npm start
-```
-Runs on `http://localhost:5000`.
+## Tech Stack
+*   **Frontend**: React, Vite, Tailwind CSS, Chart.js
+*   **Backend**: Node.js, Express, Socket.IO
+*   **Database**: MongoDB Atlas
+*   **Deployment**: Railway (Full Stack)
 
-### 2. Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
-Runs on `http://localhost:5173`.
-
-## Features
-- Email-only Login (or signup).
-- Real-time stock prices (Random Walk).
-- Sparkline charts.
-- Virtual Trading (Buy/Sell) with $100k balance.
-- Portfolio syncing across devices.
+---
+*Built by Anubhav Kushagra*
