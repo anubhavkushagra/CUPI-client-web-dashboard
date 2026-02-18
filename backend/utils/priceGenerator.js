@@ -26,7 +26,7 @@ const calculateTrend = (history) => {
     const avg = recent.reduce((a, b) => a + b, 0) / recent.length;
     const current = recent[recent.length - 1];
     return current > avg ? 'Up' : 'Down';
-};
+};                                 
 
 const startPriceGeneration = (io) => {
     setInterval(() => {

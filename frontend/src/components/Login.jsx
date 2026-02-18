@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { login, signup } from '../api';
+// tool for showing temporary popup messages
 import { toast } from 'react-toastify';
 
 export default function Login({ onLogin }) {
@@ -11,6 +12,7 @@ export default function Login({ onLogin }) {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        // to disable the button while loading
         setLoading(true);
         try {
             let data;
@@ -30,6 +32,7 @@ export default function Login({ onLogin }) {
             console.error('Auth error:', err);
             toast.error(err.response?.data?.message || 'Authentication failed');
         } finally {
+            // to enable the button after loading
             setLoading(false);
         }
     };
