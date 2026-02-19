@@ -1,6 +1,6 @@
 # Stock Broker Client Web Dashboard
 
-**Live Demo:** [https://cupi-client-web-dashboard-production.up.railway.app/](https://cupi-client-web-dashboard-production.up.railway.app/)
+**Live Demo:** [https://cupi-client-web-dashboard-ax9r.vercel.app/](https://cupi-client-web-dashboard-ax9r.vercel.app/)
 
 ## Overview
 A full-stack, real-time stock trading dashboard built with the **MERN Stack**. It simulates a live stock market environment where users can buy/sell stocks, track their portfolio, and view real-time price trends.
